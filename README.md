@@ -68,7 +68,6 @@ The system's functionality is implemented using Arduino code, which:
 - Controls the servo motor for solar tracking.
 - Manages the water pump operation for irrigation.
 
-```cpp
 #include <Servo.h>
 
 Servo myservo;
