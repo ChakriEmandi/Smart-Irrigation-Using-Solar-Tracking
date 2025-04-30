@@ -68,6 +68,7 @@ The system's functionality is implemented using Arduino code, which:
 - Controls the servo motor for solar tracking.
 - Manages the water pump operation for irrigation.
 
+```
 #include <Servo.h>
 
 Servo myservo;
@@ -88,6 +89,7 @@ void loop() {
         digitalWrite(waterPump, LOW);
     }
 }
+```
 
 ## Results
 ### Solar Tracking Efficiency:
